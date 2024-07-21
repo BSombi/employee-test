@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-21 21:20:05.672642",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "university",
+  "qualification",
+  "level",
+  "graduation_year",
+  "grade"
+ ],
+ "fields": [
+  {
+   "fieldname": "university",
+   "fieldtype": "Small Text",
+   "label": "University"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Select",
+   "label": "Level",
+   "options": "PHD\nPost Graduate\nUnder Graduate\nDiploma\nCertificate\nA Level\nO Level"
+  },
+  {
+   "fieldname": "graduation_year",
+   "fieldtype": "Data",
+   "label": "Graduation year"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "label": "Grade"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-21 21:21:26.911263",
+ "modified_by": "Administrator",
+ "module": "Employee Test",
+ "name": "Education",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

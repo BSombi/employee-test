@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-21 21:26:49.740048",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_overall_tab",
+  "first_name",
+  "last_name",
+  "gender",
+  "column_break_lzdx",
+  "grade",
+  "company",
+  "country",
+  "education_tab",
+  "educational_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lzdx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Grade",
+   "options": "Grade",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "employee_overall_tab",
+   "fieldtype": "Tab Break",
+   "label": "Employee Overall"
+  },
+  {
+   "fieldname": "education_tab",
+   "fieldtype": "Tab Break",
+   "label": "Education"
+  },
+  {
+   "fieldname": "educational_details",
+   "fieldtype": "Table",
+   "label": "Educational Details",
+   "options": "Education"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-21 21:30:04.995407",
+ "modified_by": "Administrator",
+ "module": "Employee Test",
+ "name": "Employee",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
